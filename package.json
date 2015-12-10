@@ -1,0 +1,55 @@
+{
+  "name": "redux-sandbox",
+  "version": "1.0.0",
+  "description": "Redux Sandbox with Gulp and Webpack",
+  "private": true,
+  "main": "src/server/index.js",
+  "engines": {
+    "node": "5.0.0"
+  },
+  "scripts": {
+    "start": "node_modules/gulp/bin/gulp.js && ./bin/serve",
+    "test": "mocha --compilers js:babel/register --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:agreco/redux-sandbox.git"
+  },
+  "dependencies": {
+    "babel-core": "^6.3.15",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.3.13",
+    "babel-plugin-transform-object-rest-spread": "^6.3.13",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-preset-stage-1": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "babel-preset-stage-3": "^6.3.13",
+    "chai": "*",
+    "del": "*",
+    "express": "*",
+    "gulp": "*",
+    "gulp-babel": "^6.1.1",
+    "gulp-mocha": "*",
+    "gulp-open": "*",
+    "gulp-react": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-webpack": "*",
+    "jquery": "*",
+    "jsdom": "*",
+    "jsx-loader": "*",
+    "mocha": "*",
+    "nock": "*",
+    "react": "*",
+    "react-addons-test-utils": "*",
+    "react-dom": "*",
+    "redux": "*",
+    "socket.io": "*",
+    "webpack": "*",
+    "webpack-dev-server": "^1.12.1",
+    "xmlhttprequest": "*"
+  }
+}
