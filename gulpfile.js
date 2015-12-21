@@ -51,4 +51,4 @@ gulp.task('watch', function () {
     gulp.watch('src/client/js/**/*.js', ['build']);
 });
 
-gulp.task('default', ['clean', 'build', 'open']);
+gulp.task('default', ['clean', 'build'/*, 'open'*/]);
